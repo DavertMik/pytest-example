@@ -1,3 +1,26 @@
+# Testomat.io Python Project
+
+To run tests with XML report generarted:
+
+```
+pytest --junit-xml report.xml
+```
+
+To upload report to Testomat.io.
+
+Install Testomat.io reporter
+
+```
+npx @testomatio/reporter --save
+```
+
+Run `npx report-xml` from `@testomatio/reporter` package.
+
+```
+TESTOMATIO={apiKey} npx report-xml --pytest report.xml
+```
+
+
 # pytest-example
 pytest - Python Testing Example
 
